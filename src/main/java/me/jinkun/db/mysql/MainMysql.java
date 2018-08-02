@@ -73,8 +73,8 @@ public class MainMysql {
         while (rs.next()) {
             Map map = new HashMap<>();
 
-            String COLUMN_NAME = rs.getString("FIELD").toUpperCase();
-            String DATA_TYPE = rs.getString("TYPE").toUpperCase();//varchar(200)
+            String COLUMN_NAME = rs.getString("FIELD");
+            String DATA_TYPE = rs.getString("TYPE");//varchar(200)
             String DATA_LENGTH = "";//rs.getString("DATA_LENGTH");
             if (DATA_TYPE.indexOf("(") != -1) {
                 DATA_LENGTH = DATA_TYPE.substring(DATA_TYPE.indexOf("(")+1, DATA_TYPE.indexOf(")"));
