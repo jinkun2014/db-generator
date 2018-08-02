@@ -399,7 +399,7 @@
                                         <w:rPr>
                                             <w:rFonts w:hint="eastAsia"/>
                                         </w:rPr>
-                                        <w:t>${c.COMMENTS}</w:t>
+                                        <w:t>${c.COMMENTS?xml}</w:t>
                                     </w:r>
                                 </w:p>
                             </w:tc>
@@ -429,6 +429,7 @@
                                         <w:t>${c.DATA_TYPE}</w:t>
                                     </w:r>
                                     <w:proofErr w:type="gramEnd"/>
+                                    <#if c.DATA_LENGTH?? && c.DATA_LENGTH!=''>
                                     <w:r>
                                         <w:t>(</w:t>
                                     </w:r>
@@ -438,6 +439,7 @@
                                     <w:r w:rsidR="00175B3F" w:rsidRPr="00FA6EAC">
                                         <w:t>)</w:t>
                                     </w:r>
+                                    </#if>
                                 </w:p>
                             </w:tc>
                             <w:tc>
