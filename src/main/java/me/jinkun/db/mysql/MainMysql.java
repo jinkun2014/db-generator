@@ -89,7 +89,7 @@ public class MainMysql {
             map.put("DATA_TYPE", DATA_TYPE);
             map.put("DATA_LENGTH", DATA_LENGTH);
             map.put("DATA_DEFAULT", DATA_DEFAULT == null ? "" : DATA_DEFAULT);
-            map.put("NULLABLE", "NO".equals(NULLABLE) ? false : true);
+            map.put("NULLABLE", NULLABLE);
             map.put("COMMENTS", COMMENTS == null ? "" : COMMENTS);
             map.put("PRIMARY_KEY", "PRI".equals(PRIMARY_KEY) ? true : false);
             columnList.add(map);

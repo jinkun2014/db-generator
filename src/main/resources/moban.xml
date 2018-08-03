@@ -146,7 +146,7 @@
                             <w:tc>
                                 <w:tcPr>
                                     <w:tcW w:w="5711" w:type="dxa"/>
-                                    <w:gridSpan w:val="4"/>
+                                    <w:gridSpan w:val="5"/>
                                     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                                     <w:vAlign w:val="center"/>
                                 </w:tcPr>
@@ -192,7 +192,7 @@
                             <w:tc>
                                 <w:tcPr>
                                     <w:tcW w:w="5711" w:type="dxa"/>
-                                    <w:gridSpan w:val="4"/>
+                                    <w:gridSpan w:val="5"/>
                                     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                                     <w:vAlign w:val="center"/>
                                 </w:tcPr>
@@ -238,7 +238,7 @@
                             <w:tc>
                                 <w:tcPr>
                                     <w:tcW w:w="5711" w:type="dxa"/>
-                                    <w:gridSpan w:val="4"/>
+                                    <w:gridSpan w:val="5"/>
                                     <w:tcBorders>
                                         <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
                                     </w:tcBorders>
@@ -252,7 +252,7 @@
                             <w:tc>
                                 <w:tcPr>
                                     <w:tcW w:w="8522" w:type="dxa"/>
-                                    <w:gridSpan w:val="6"/>
+                                    <w:gridSpan w:val="7"/>
                                     <w:shd w:val="clear" w:color="auto" w:fill="E0E0E0"/>
                                     <w:vAlign w:val="center"/>
                                 </w:tcPr>
@@ -357,6 +357,22 @@
                             </w:tc>
                             <w:tc>
                                 <w:tcPr>
+                                    <w:tcW w:w="1276" w:type="dxa"/>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p w:rsidR="00175B3F" w:rsidRPr="00FA6EAC" w:rsidRDefault="00175B3F"
+                                     w:rsidP="00CF755D">
+                                    <w:r w:rsidRPr="00FA6EAC">
+                                        <w:rPr>
+                                            <w:rFonts w:hint="eastAsia"/>
+                                        </w:rPr>
+                                        <w:t>是否为空</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
                                     <w:tcW w:w="901" w:type="dxa"/>
                                     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                                     <w:vAlign w:val="center"/>
@@ -451,6 +467,18 @@
                                 <w:p w:rsidR="00175B3F" w:rsidRDefault="001E788A" w:rsidP="00CF755D">
                                     <w:r>
                                         <w:t>${c.DATA_DEFAULT}</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1276" w:type="dxa"/>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p w:rsidR="00175B3F" w:rsidRDefault="001E788A" w:rsidP="00CF755D">
+                                    <w:r>
+                                        <w:t>${c.NULLABLE}</w:t>
                                     </w:r>
                                 </w:p>
                             </w:tc>
